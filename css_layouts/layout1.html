@@ -1,0 +1,50 @@
+<! SOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Layout 1</title>
+        <style>
+            * {
+                outline: 1px solid black;
+            }
+            
+            body{
+                margin: 0;
+            }
+            
+            #container{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr; /* fr is an equally divided ratio... 25% and 75% works too */
+                max-width: 800px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            #blue{
+                background-color: blue;
+                grid-column: 1/5;
+                height: 200px;
+            }
+            
+            #red{
+                background-color: red;
+                height: 600px;
+            }
+            
+            #green{
+                background-color: lime;
+                grid-column: 2/5;
+                height: 600px;
+            }
+        
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="blue">  </div>
+            <div id="red">  </div>
+            <div id="green">  </div>
+        </div>
+    </body>
+</html>
