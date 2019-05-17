@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Bootstrap</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+        <style>
+            * {outline: #EEE solid 1px;}
+        </style>
+    </head>
+    
+    <body>
+        <div class="container">
+            <h1>Grids</h1>
+            
+            <div class="row no-gutters">
+                <div class="col-sm-4"> 4 </div>
+                <div class="col-sm-4"> 4 </div>
+                <div class="col-sm-4"> 4 </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-6"> 6 </div>
+                <div class="col-6"> 6 </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-12 col-sm-8"> 8/12 </div>
+                <div class="col-6 col-sm-2"> 2/6 </div>
+                <div class="col-6 col-sm-2"> 2/6 </div>
+            </div>
+        </div>
+        
+        <h1>Font Awesome</h1>
+        <i class="fas fa-envelope" style="color: red">willmurton00@gmail.com</i>
+        <i class="fab fa-facebook" style="color: darkslateblue">www.facebook.com/william.murton.13</i>
+        <i class="fab fa-instagram" style="color: limegreen">www.instagram.com/will_murton/</i>
+        
+        <h1>Collapsibles</h1>
+        
+            How many apples can the average goat eat in a single evening?
+            <button data-toggle="collapse" data-target="#goatanswer" style="color: darkblue"> ANSWER </button>
+            <div id="goatanswer" class="collapse">thirteen and a quarter... if they're not sick</div>
+        
+        <script
+            src="http://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"> </script>
+        <script src="js/bootstrap.bundle.min.js"> </script>
+    </body>
+    
+</html>
